@@ -1,0 +1,196 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body{
+  background-color: white;
+}
+
+a{
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 24px;
+  margin: 0 10px;
+  padding: 8px 24px;
+  background-color: #C7DCDF;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: center;
+  display: flex;
+}
+
+a{
+  color: #5194A2;
+  align-content: flex-start;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-items: flex-start;
+  display: inline;
+}
+
+h4{
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 24px;
+  margin: 0 10px;
+  padding: 8px 450px;
+  background-color: none;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: center;
+  display: flex;
+}
+
+
+.Logo .Img-logo{
+  border: none;
+  border-radius: 36px;
+  margin: 0 0px;
+  padding: 0px 0px;
+  background-color: white;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: center;
+  align-items: flex-end;
+  height: 130px;
+}
+
+.carrito{
+  border: none;
+  border-radius: 36px;
+  margin: 0 10px;
+  padding: 8px 15px;
+  background-color: #C7DCDF;
+  align-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  align-items: center;
+  height: 25px;
+}
+
+header{
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
+  position: absolute;
+  background-color: #5194A2;
+  height: 60px;
+  width: 99%;
+  padding: 0px 0px;
+  grid-column: 1 / span 2;
+}
+
+
+
+
+.ilustra{
+  display: block;
+  flex-direction: row;
+  align-items: baseline;
+  max-width: 1100px;
+  height: 600px;
+  width: 40%;
+  background: none;
+  border-radius: 24px;
+  padding: 80px 50px;
+  position: relative;
+  color: #5194A2;
+  float: left;
+}
+
+.ilustra::before{
+  content: normal;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 150%;
+  width: 150%;
+  border-radius: 24px 24px 0 0;
+}
+
+.imagen2{
+  display: flex;
+  position: relative;
+  height: 410px;
+  width: 300px;
+  border-radius: 5%;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.imagen2 .ilus-img{
+  height: 410px;
+  width: 310px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 3px solid #white;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+aside{
+  height: 100px;
+  width: 400px;
+  float: right;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+  background-color: none;
+  padding: 0px 50px;
+}
+
+.mano{
+  display: block;
+  flex-direction: row;
+  align-items: baseline;
+  max-width: 1100px;
+  height: 600px;
+  width: 99%;
+  background: none;
+  border-radius: 24px;
+  padding: 80px 50px;
+  position: relative;
+  color: #5194A2;
+  float: right;
+}
+
+
+.mano::before{
+  content: normal;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 150%;
+  width: 150%;
+  border-radius: 24px 24px 0 0;
+}
+
+.imagen3{
+  display: flex;
+  position: relative;
+  height: 410px;
+  width: 300px;
+  border-radius: 5%;
+  background-color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.imagen3 .mano-img{
+  height: 410px;
+  width: 310px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 3px solid #white;
+  display: flex;
+  flex-direction: row;
+}
